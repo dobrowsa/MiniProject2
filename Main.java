@@ -7,6 +7,12 @@ class Main {
     Scanner s = new Scanner(System.in);
       System.out.println("How many players are in this Easter egg hunt? Enter a positive whole number:");
       int number = s.nextInt();
+      // Logic to only accept positive whole numbers and throw an error if the number is negative
+      while (number < 0) {
+        System.out.println("Sorry, we cannot accept a negative number for the amount of players. Please enter a positive number.");
+        System.out.println("Please enter a positive whole number: ");
+        number = s.nextInt();
+      }
 
       //Forming of Array of any number of players inputted by user
       ArrayList<Player> players = new ArrayList<Player>();
