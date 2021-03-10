@@ -57,4 +57,6 @@ class Main {
     System.out.println();
     System.out.println("Player " + playerWithMostEggsFound + " found the most eggs, with " + playerTotalNumOfEggsFound + " eggs!");
   }
+
+  // Still need to count the number of colors of eggs found.
 }
