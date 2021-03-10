@@ -1,3 +1,6 @@
+/* Programmers: Sam Dobrowolski, Joey Desantis, Christoper Sonnhalter
+Date: 3/9/2021 Version 1*/
+
 import java.util.Scanner;
 import java.util.Random;
 import java.util.ArrayList;
