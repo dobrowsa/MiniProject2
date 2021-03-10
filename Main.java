@@ -26,7 +26,7 @@ class Main {
 
       System.out.println("We have added " + number + " players to this hunt. Let's find some eggs!");
 
-    // Call of Hunt Method
+      // Call of Hunt Method
       hunt(players);
 
       //Call of Recap Method
